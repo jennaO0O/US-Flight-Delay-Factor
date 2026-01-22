@@ -8,16 +8,13 @@ This project investigates the operational and environmental factors contributing
 
 ### Data Integration
 
-* 
-**Flight Data (2018–2023)**: Includes airline information, airport locations, and categorized delay types such as NAS, security, and late aircraft.
+* **Flight Data (2018–2023)**: Includes airline information, airport locations, and categorized delay types such as NAS, security, and late aircraft.
 
 
-* 
-**Weather Data (2016–2022)**: Covers weather events, severity, and precipitation across 49 states.
+* **Weather Data (2016–2022)**: Covers weather events, severity, and precipitation across 49 states.
 
 
-* 
-**Preprocessing**: The team utilized one-hot encoding for temporal features and handled multicollinearity by dropping baseline categories. Categorical variables were transformed into numerical labels, and missing values were replaced with 0.
+* **Preprocessing**: The team utilized one-hot encoding for temporal features and handled multicollinearity by dropping baseline categories. Categorical variables were transformed into numerical labels, and missing values were replaced with 0.
 
 
 
@@ -25,16 +22,13 @@ This project investigates the operational and environmental factors contributing
 
 Three models were evaluated using **Root Mean Square Error (RMSE)** as the primary metric:
 
-1. 
-**Classification and Regression Tree (CART)**: The best-performing model with an RMSE of **11.6922** and a Mean Absolute Error (MAE) of **3.87 minutes**.
+1. **Classification and Regression Tree (CART)**: The best-performing model with an RMSE of **11.6922** and a Mean Absolute Error (MAE) of **3.87 minutes**.
 
 
-2. 
-**Random Forest (RF)**: Achieved an RMSE of **14.6054**.
+2. **Random Forest (RF)**: Achieved an RMSE of **14.6054**.
 
 
-3. 
-**Linear Regression (Lasso)**: Achieved an RMSE of **20.1757**.
+3. **Linear Regression (Lasso)**: Achieved an RMSE of **20.1757**.
 
 
 
